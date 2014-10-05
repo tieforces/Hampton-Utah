@@ -1,0 +1,176 @@
+﻿body {
+    --padding-top: 50px;
+}
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+select,
+textarea {
+    max-width: 280px;
+}
+
+.navbar-nav {
+    float: right;
+}
+
+.logo {
+    width: 250px;
+    height: auto;
+}
+
+.slide {
+	background-position: center center;
+	background-repeat: no-repeat;
+	padding-bottom: 65px;
+	padding-top: 50px;
+	text-align: center;
+}
+
+.slide-1 {
+	background-image: url('images/house.jpg');
+	color: #ffffff;
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    width: 100%;
+	background-attachment: fixed;
+	background-position: center center;
+    margin-bottom: 0px;
+}
+
+.slide-2 {
+	--background-image: linear-gradient(to right, #3BC3E1, #053359);
+    background-color: #207C9E;
+	color: #ffffff;
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    width: 100%;
+	background-attachment: initial;
+	background-position: left top;
+    margin-bottom: 0px;
+
+    align-content: center;
+}
+
+.circle {
+	border-radius: 50%;
+	width: 200px;
+	height: 200px;
+    background-color: white;
+    color: black;
+    font-size: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.myicon {
+    vertical-align: -35%;
+    align-content: center;
+}
+
+.slide-3 {
+	background-image: url('images/pattern.png');
+	color: #ffffff;
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    width: 100%;
+	background-attachment: fixed;
+	background-position: center center;
+    margin-bottom: 0px;
+
+    align-content: center;
+}
+
+.square {
+	width: 150px;
+	height: 150px;
+    background-color: white;
+    color: black;
+    font-size: 75px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.slide-4 {
+	background-color: #C13100;
+	color: #ffffff;
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    width: 100%;
+	background-attachment: fixed;
+	background-position: center center;
+    margin-bottom: 0px;
+
+    align-content: center;
+}
+
+.slide-5 {
+	background-image: url('images/road.jpg');
+	color: #ffffff;
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    width: 100%;
+	background-attachment: fixed;
+	background-position: center center;
+    margin-bottom: 0px;
+
+    align-content: center;
+}
+
+.slide-6 {
+	background-color: #99CC99;
+	color: #ffffff;
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    width: 100%;
+	background-attachment: fixed;
+	background-position: center center;
+    margin-bottom: 0px;
+
+    align-content: center;
+}
