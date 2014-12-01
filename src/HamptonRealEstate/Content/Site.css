@@ -51,12 +51,10 @@ textarea {
 .slide-2 {
 	--background-image: linear-gradient(to right, #3BC3E1, #053359);
     background-color: #207C9E;
-	color: #ffffff;
     -webkit-background-size: 100%;
     -moz-background-size: 100%;
     -o-background-size: 100%;
     background-size: 100%;
-
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -173,4 +171,61 @@ textarea {
     margin-bottom: 0px;
 
     align-content: center;
+}
+
+.homes-link, .buying-link, .selling-link {
+    -webkit-transition:width 2s, height 2s, background-color 2s, -webkit-transform 2s;
+    transition:width 2s, height 2s, background-color 2s, transform 2s;
+}
+
+.circle-label, .buying-label, .selling-label {
+    color: white;
+}
+
+.homes-link:hover .circle {
+    background-color: black;
+    color: white;
+}
+
+.homes-link:hover .circle-label {
+    color: black;
+}
+
+.buying-link:hover .square{
+    background-color: black;
+    color: white;
+}
+
+.buying-link:hover .buying-label {
+    color: black;
+}
+
+.selling-link:hover .square{
+    background-color: black;
+    color: white;
+}
+
+.selling-link:hover .selling-label {
+    color: black;
+}
+
+.roadmap-label {
+    background-color: black;
+    color: white;
+    line-height: 40px;
+    width: 238px;
+}
+
+.hover-roadmap {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    background: #000;
+    -webkit-transition: opacity .5s ease-out;
+    -moz-transition: opacity .5s ease-out;
+    -o-transition: opacity .5s ease-out;
+    -ms-transition: opacity .5s ease-out;
+    transition: opacity .5s ease-out;
 }

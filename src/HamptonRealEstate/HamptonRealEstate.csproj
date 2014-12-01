@@ -130,6 +130,7 @@
     <Content Include="Content\images\pattern.png" />
     <Content Include="Content\images\house.jpg" />
     <Content Include="Content\images\road.jpg" />
+    <Content Include="Content\images\start.jpg" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\fontawesome-webfont.svg" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
@@ -144,6 +145,15 @@
     <Content Include="fonts\fontawesome-webfont.ttf" />
     <Content Include="fonts\fontawesome-webfont.eot" />
     <Content Include="fonts\FontAwesome.otf" />
+    <Content Include="Documents\Avoid.pdf" />
+    <Content Include="Documents\Buying.pdf" />
+    <Content Include="Documents\CommonSelling.pdf" />
+    <Content Include="Documents\DoYouNeedIt.pdf" />
+    <Content Include="Documents\Selling.pdf" />
+    <Content Include="Documents\Surviving.pdf" />
+    <Content Include="Documents\TheRightHome.pdf" />
+    <Content Include="Documents\TheSellingPrice.pdf" />
+    <None Include="Properties\PublishProfiles\hampton-utah.pubxml" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
